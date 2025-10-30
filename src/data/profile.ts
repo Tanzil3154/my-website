@@ -1,3 +1,7 @@
+import lmsImg from "./lms.jpeg";
+import rfImg from "./rf.jpeg";
+import shophubImg from "./shophub.jpeg";
+
 export const profile = {
   name: "Tanzil Hasan",
   role: "Software Engineer / React Developer",
@@ -39,21 +43,21 @@ export const profile = {
       description:
         "Recipe Finder is a modern, responsive React + Vite app for exploring recipes from around the world.",
       link: "https://recipe-finder-six-beta.vercel.app/",
-      imageUrl: "/src/data/rf.jpeg",
+      imageUrl: rfImg,
     },
     {
       title: "Library Management",
       description:
         "Library Management System is a modern React + Vite app that lets users browse, borrow, and return books with real-time updates. Features include due date tracking, overdue alerts, smart search & filters, and a responsive design.",
       link: "https://library-management-sigma-ten.vercel.app/",
-      imageUrl: "/src/data/lms.jpeg",
+      imageUrl: lmsImg,
     },
     {
       title: "Shophub Ecommerce App",
       description:
         "Shophub is an ecommerce application built with React and Redux with a focus on product browsing, cart management and a responsive storefront UI.",
       link: "https://shophub-ecommerce-store.vercel.app/",
-      imageUrl: "/src/data/shophub.jpeg",
+      imageUrl: shophubImg,
     },
   ],
 };
